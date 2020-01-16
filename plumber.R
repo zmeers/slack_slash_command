@@ -325,7 +325,7 @@ new_poll <- function(res, filter_state = "National"){
         url = "https://hooks.slack.com/services/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",
         httr::add_headers('Content-Type'='application/json', 
                      'Charset'='utf-8',
-                     'Authorization'= 'Bearer xoxb-61709931235-894649919713-O2U6MMOWQqrh8OxnpsdF4oCs'),
+                     'Authorization'= 'Bearer xoxb-....-...-...'),
         body = list(
           text  = mytext,
           response_type = "in_channel", 
@@ -390,7 +390,7 @@ new_poll <- function(res, filter_state = "National"){
 #     url = "https://hooks.slack.com/services/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",
 #     httr::add_headers('Content-Type'='text/plain',
 #                       'Charset'='utf-8',
-#                       'Authorization'= 'Bearer xoxb-61709931235-894649919713-O2U6MMOWQqrh8OxnpsdF4oCs'),
+#                       'Authorization'= 'Bearer xoxb-...-...-...'),
 #     body = list(
 #       text  = mytext
 #     ),
