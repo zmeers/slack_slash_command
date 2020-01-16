@@ -271,7 +271,7 @@ new_poll <- function(res, filter_state = "National"){
 
   if (!filter_state %in% primary_polls$state) {
     res$status <- 400
-    stop("State" , cust_id, " not found.")
+    stop("State" , filter_state, " not found.")
   }
   
   
